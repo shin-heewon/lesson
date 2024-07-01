@@ -11,5 +11,6 @@ public class A {
 
   //메소드 선언
   protected void method() {
+    System.out.println("나는 A클래스의 method()");
   }
 }

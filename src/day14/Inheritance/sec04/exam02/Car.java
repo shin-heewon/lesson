@@ -11,7 +11,7 @@ public class Car {
   }
 
   //final 메소드
-  public final void stop() {
+  public final void stop() {//최종메소드 => 오버라이딩 금지!
     System.out.println("차를 멈춤");
     speed = 0;
   }
