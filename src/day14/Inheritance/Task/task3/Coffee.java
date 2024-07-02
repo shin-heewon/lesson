@@ -1,6 +1,4 @@
-package day14.Inheritance.Task.task2;
-
-import day14.Inheritance.Task.task3.Beverage;
+package day14.Inheritance.Task.task3;
 
 public class Coffee extends Beverage {
 

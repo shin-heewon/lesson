@@ -1,8 +1,5 @@
 package day14.Inheritance.Task.task3;
 
-import day14.Inheritance.Task.task2.Coffee;
-import day14.Inheritance.Task.task2.Tea;
-
 public class CoffeShop {
 
 
