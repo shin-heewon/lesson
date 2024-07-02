@@ -1,5 +1,5 @@
 package day15.interfaceEx.sec9.exam01;
 
-public class C {
+public class C implements A {
 
 }
