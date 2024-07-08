@@ -1,4 +1,4 @@
-package day9.section5.quiz;
+package quiz.array.quiz01;
 
 public class Prob1 {
 
