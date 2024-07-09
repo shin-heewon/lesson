@@ -1,4 +1,4 @@
-package quiz.interfaceQuiz;
+package quiz.exceptionQuiz;
 
 public class CellPhoneMain {
 
@@ -19,12 +19,12 @@ public class CellPhoneMain {
 
     myPhone.call(-20);  //통화시간이 잘못 입력되었다.
 
-    CellPhone yourPhone = new CellPhone("SCH-600");
+    /*CellPhone yourPhone = new CellPhone("SCH-600");
 
     if (myPhone.equals(yourPhone)) {
       System.out.println("동일 모델입니다.");
     } else {
       System.out.println("다른 모델입니다.");
-    }
+    }*/
   }
 }

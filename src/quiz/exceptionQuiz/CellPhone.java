@@ -1,4 +1,4 @@
-package quiz.interfaceQuiz;
+package quiz.exceptionQuiz;
 
 public class CellPhone {
 

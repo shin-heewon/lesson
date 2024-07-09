@@ -1,4 +1,4 @@
-package quiz.interfaceQuiz;
+package quiz.exceptionQuiz;
 
 import java.util.Scanner;
 //BufferedReader(new InputStreamReader(System.in)) 사용하셔도 됩니다.
