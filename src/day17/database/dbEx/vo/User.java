@@ -1,5 +1,20 @@
 package day17.database.dbEx.vo;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter //컴파일시 필드들에 대한 getter 메서드들 생성해줌
+@Setter
+@ToString
+@EqualsAndHashCode
+@RequiredArgsConstructor
+@Data // 위 4개 다 포함
+@AllArgsConstructor
 public class User {
 
   private String userId;
@@ -7,17 +22,17 @@ public class User {
   private int userAge;
   private String userEmail;
 
-  public User() {
-  }
+  /*public User() {
+  }*/
 
-  public User(String userId, String userName, int userAge, String userEmail) {
+/*  public User(String userId, String userName, int userAge, String userEmail) {
     this.userId = userId;
     this.userName = userName;
     this.userAge = userAge;
     this.userEmail = userEmail;
-  }
+  }*/
 
-  public String getUserId() {
+  /*public String getUserId() {
     return userId;
   }
 
@@ -57,8 +72,6 @@ public class User {
         ", userAge=" + userAge +
         ", userEmail='" + userEmail + '\'' +
         '}';
-  }
-
-  ;
+  }*/;
 
 }
